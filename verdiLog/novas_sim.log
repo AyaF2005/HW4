@@ -1,0 +1,40 @@
+Invoking simulator...
+Verdi>/home/st54/HW4/simv -sml=verdi +UVM_VERDI_TRACE=UVM_AWARE -ucli2Proc +fsdb+gate=off -ucli2Proc -ucli
+*Verdi* Loading libsscore_vcs202206.so
+*Verdi* WARNING: No '-debug_access' in VCS compile options
+FSDB Dumper for VCS, Release Verdi_T-2022.06-SP2, Linux x86_64/64bit, 11/22/2022
+(C) 1996 - 2022 by Synopsys, Inc.
+*Verdi* : Create FSDB file '/home/st54/HW4/inter.fsdb'
+*Verdi* : Flush all FSDB Files at 0 s.
+*Verdi* : Enable RPC Server(53755)
+Chronologic VCS simulator copyright 1991-2022
+Contains Synopsys proprietary information.
+Compiler version T-2022.06-SP2_Full64; Runtime version T-2022.06-SP2_Full64;  May  3 08:46 2026
+Verdi>fsdbDumpvars 1 "top.tb"  +all +trace_process;fsdbDumpflush 
+
+*Verdi* : Begin traversing the scope (top.tb), layer (1).
+*Verdi* : Enable +trace_process and +all dumping.
+*Verdi* : End of traversing.
+*Verdi* : Flush all FSDB Files at 0 s.
+
+Verdi>fsdbDumpvars 1 "top"  +all +trace_process;fsdbDumpflush 
+
+*Verdi* : Begin traversing the scope (top), layer (1).
+*Verdi* : Enable +trace_process and +all dumping.
+*Verdi* : End of traversing.
+*Verdi* : Flush all FSDB Files at 0 s.
+
+Verdi>fsdbDumpvars 1 "top"  +all +trace_process;fsdbDumpflush 
+
+*Verdi* : Begin traversing the scope (top), layer (1).
+*Verdi* : Enable +trace_process and +all dumping.
+*Verdi* : End of traversing.
+*Verdi* : Flush all FSDB Files at 0 s.
+
+Verdi>fsdbDumpvars 1 "top"  +all +trace_process;fsdbDumpflush 
+
+*Verdi* : Begin traversing the scope (top), layer (1).
+*Verdi* : Enable +trace_process and +all dumping.
+*Verdi* : End of traversing.
+*Verdi* : Flush all FSDB Files at 0 s.
+
