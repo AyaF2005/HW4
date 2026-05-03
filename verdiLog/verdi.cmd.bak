@@ -1,0 +1,6 @@
+wvCreateWindow
+wvOpenFile -win $_nWave2 {/home/st54/HW4/waves.fsdb}
+verdiWindowResize -win $_Verdi_1 "8" "31" "920" "784"
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+verdiWindowResize -win $_Verdi_1 "0" "23" "1536" "793"
+verdiWindowResize -win $_Verdi_1 "8" "31" "920" "784"

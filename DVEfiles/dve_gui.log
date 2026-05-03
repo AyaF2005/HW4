@@ -1,0 +1,5 @@
+Error: File is wrong VCD+ version (or not VCD+)
+Error: [EK-CMD-013]
+[DVDB006] 
+The file is not a supported database type or is corrupted.
+	Use error_info for more info.

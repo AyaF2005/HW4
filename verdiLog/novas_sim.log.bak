@@ -1,0 +1,51 @@
+Invoking simulator...
+Verdi>/home/st54/HW4/simv -sml=verdi +UVM_VERDI_TRACE=UVM_AWARE -ucli2Proc +fsdb+gate=off -ucli2Proc -ucli
+*Verdi* Loading libsscore_vcs202206.so
+FSDB Dumper for VCS, Release Verdi_T-2022.06-SP2, Linux x86_64/64bit, 11/22/2022
+(C) 1996 - 2022 by Synopsys, Inc.
+*Verdi* : Create FSDB file '/home/st54/HW4/inter.fsdb'
+*Verdi* : Flush all FSDB Files at 0 s.
+*Verdi* : Enable RPC Server(37937)
+Chronologic VCS simulator copyright 1991-2022
+Contains Synopsys proprietary information.
+Compiler version T-2022.06-SP2_Full64; Runtime version T-2022.06-SP2_Full64;  May  3 00:17 2026
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:      0.140 seconds;       Data structure size:   0.0Mb
+Sun May  3 00:19:37 2026
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+uniFindSearchString -widget MTB_SOURCE_TAB_1 -pattern "scope dropdown" -next
+uniFindSearchString -widget MTB_SOURCE_TAB_1 -pattern "scope" -next
+verdiSetActWin -win $_nWave7
+verdiSetActWin -dock widgetDock_<Member>
+srcHBSelect "\$root" -win $_nTrace1
+verdiSetActWin -dock widgetDock_<Inst._Tree>
+srcHBSelect "\$root" -win $_nTrace1
+srcHBSelect "\$root" -win $_nTrace1
+srcHBSelect "\$root" -win $_nTrace1
+srcHBSelect "\$root" -win $_nTrace1
+srcHBSelect "\$root" -win $_nTrace1
+srcHBAddObjectToWave -clipboard
+wvDrop -win $_nWave7
+wvGetSignalOpen -win $_nWave7
+verdiSetActWin -win $_nWave7
+debImport "/home/st54/HW4/test.sv" "/home/st54/HW4/inter.fsdb" -path \
+          {/home/st54/HW4}
+nsMsgSwitchTab -tab general
+debLoadSimResult /home/st54/HW4/inter.fsdb
+verdiSetActWin -dock widgetDock_<Inst._Tree>
+srcHBSelect "\$root" -win $_nTrace1
+srcHBSelect "\$root" -win $_nTrace1
+srcHBSelect "\$root" -win $_nTrace1
+wvCreateWindow
+srcHBAddObjectToWave -clipboard
+wvDrop -win $_nWave8
+wvSelectGroup -win $_nWave8 {$root}
+wvSelectGroup -win $_nWave8 {$root}
+wvGetSignalOpen -win $_nWave8
+srcHBSelect "\$root" -win $_nTrace1
+verdiSetActWin -dock widgetDock_<Inst._Tree>
+srcHBSelect "\$root" -win $_nTrace1
+srcHBSelect "\$root" -win $_nTrace1
+srcHBSelect "\$root" -win $_nTrace1
+debExit
